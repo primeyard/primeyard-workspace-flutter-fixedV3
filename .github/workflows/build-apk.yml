@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: primeyard_flutter_app
+        working-directory: primeyard-workspace-flutter-fixedV3
 
     steps:
       - name: Checkout
@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: primeyard-workspace-flutter-apk
-          path: primeyard_flutter_app/build/app/outputs/flutter-apk/app-release.apk
+          path: primeyard-workspace-flutter-fixedV3/build/app/outputs/flutter-apk/app-release.apk
